@@ -1,0 +1,10 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Menú principal{% endblock %}
+
+{% block content %}
+<div style="padding: 20px;">
+    <h2>Bienvenido {{ session['usuario'] }}</h2>
+    <p>Selecciona una opción del menú superior para continuar.</p>
+</div>
+{% endblock %}
